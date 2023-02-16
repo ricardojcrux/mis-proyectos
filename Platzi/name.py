@@ -1,0 +1,10 @@
+name = 'RiCArDO   '
+print(name)
+print(name.upper())
+print(name.capitalize())
+print(name.lower())
+print(name.strip())
+print(name.replace('o','x'))
+print(len(name))
+print(name[2])
+print(name[3])

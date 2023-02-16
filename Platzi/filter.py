@@ -1,0 +1,7 @@
+print('Calculadora de multiplos')
+one = int(input('Ingrese el primer numero: '))
+two = int(input('Ingrese el segundo numero: '))
+numbers = list(map(lambda x : x*one,range(1,50)))
+new_numbers = list(filter(lambda x: x%two ==0,numbers))
+print(numbers)
+print(new_numbers)

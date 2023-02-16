@@ -1,0 +1,11 @@
+li = ['a']
+li.extend('bcd')
+print(li)
+li.append('bcd')
+print(li)
+li.extend('Ricardo')
+print(li)
+li = set(li)
+print(li)
+lio = tuple(li)
+print(lio)

@@ -1,0 +1,15 @@
+#directories
+__pycache__
+*/__pycache__
+Platzi/HTML
+Platzi/Office
+Platzi/Other courses
+Platzi/proyecto1
+Platzi/Diplomas
+
+#files
+
+*.hdf5
+*.jpg
+*.png
+*.gif
