@@ -14,4 +14,3 @@ def dividir(a,b):
 	return a/b
 
 suerte= random.randint(1,10)
-
