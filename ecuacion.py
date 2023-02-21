@@ -14,14 +14,8 @@ def lineal(a,b,c,d,e,f):
 		x= (c - (b*y)) / a
 		return x, y
 
-print('Sistemas de ecuaciones 2x2''\n')
-print('ax+by=c\n''dx+ey=f\n')
+print('Sistemas de ecuaciones 2x2''\nax+by=c\n''dx+ey=f\n')
 
-lista = []
+lista = [int(input('Inserte valor: ')) for i in range(6)]
 
-for i in range(6):
-	lista.append(int(input('Inserte valor: ')))
-
-respuesta = lineal(lista[0],lista[1],lista[2],lista[3],lista[4],lista[5])
-
-print(respuesta)
+print(lineal(lista[0],lista[1],lista[2],lista[3],lista[4],lista[5]))
