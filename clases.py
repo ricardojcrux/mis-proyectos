@@ -9,19 +9,19 @@ class Felinos:
 		self.color = color_felino
 
 	def saludo(self):
-		print(self.nombre, 'dice: Miau')
+		return self.nombre + ' dice: Miau'
 
 	def comer(self,hambre):
 		if hambre == 'y':
-			print(self.nombre,'va a comer')
+			return self.nombre + ' va a comer'
 		else:
-			print(self.nombre,'no va a comer')
+			return self.nombre + ' no va a comer'
 
 	def dormir(self,sueno):
 		if sueno == 'y':
-			print(self.nombre,'va a dormir')
+			return self.nombre + ' va a dormir'
 		else:
-			print(self.nombre,'no va a dormir')
+			return self.nombre + ' no va a dormir'
 
 objeto1 = Felinos('onix','gato','negro')
 objeto2 = Felinos('simba','leon','dorado')
